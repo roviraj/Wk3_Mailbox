@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B23CF1B1A07390D006B45BE /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23CF1A1A07390D006B45BE /* MailboxViewController.swift */; };
 		3B787CE71A07359800F28B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B787CE61A07359800F28B7D /* AppDelegate.swift */; };
 		3B787CE91A07359800F28B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B787CE81A07359800F28B7D /* ViewController.swift */; };
 		3B787CEC1A07359800F28B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B787CEA1A07359800F28B7D /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B23CF1A1A07390D006B45BE /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 		3B787CE11A07359800F28B7D /* Wk3_Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wk3_Mailbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B787CE51A07359800F28B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B787CE61A07359800F28B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				3B787CE61A07359800F28B7D /* AppDelegate.swift */,
 				3B787CE81A07359800F28B7D /* ViewController.swift */,
 				3B787CEA1A07359800F28B7D /* Main.storyboard */,
+				3B23CF1A1A07390D006B45BE /* MailboxViewController.swift */,
 				3B787CED1A07359800F28B7D /* Images.xcassets */,
 				3B787CEF1A07359800F28B7D /* LaunchScreen.xib */,
 				3B787CE41A07359800F28B7D /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				3B787CE91A07359800F28B7D /* ViewController.swift in Sources */,
 				3B787CE71A07359800F28B7D /* AppDelegate.swift in Sources */,
+				3B23CF1B1A07390D006B45BE /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wk3_Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wk3_Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +411,7 @@
 				3B787D021A07359800F28B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B787D031A07359800F28B7D /* Build configuration list for PBXNativeTarget "Wk3_MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				3B787D051A07359800F28B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

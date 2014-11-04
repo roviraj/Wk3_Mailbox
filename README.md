@@ -4,6 +4,6 @@ Wk3_Mailbox
 
 //Required:
 
-Mailbox scroll view
-Dragging the message left - show reschedule and list views, tap and hide message
-Dragging the message right - hide the message
+- Mailbox scroll view
+- Dragging the message left - show reschedule and list views, tap and hide message
+- Dragging the message right - hide the message
